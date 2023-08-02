@@ -1,12 +1,14 @@
 body{
     display:flex;
     flex-direction:column;
-    background-color: lightskyblue;
     font-family: Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
     justify-content: center;
     align-items: center;
+}
+.header-intro{
+    background-color: #1F2937;
 }
 .header{
     color: white;
@@ -20,6 +22,7 @@ body{
 span{
     align-self: center;
     font-size: 24px;
+    font-weight: bold;
 }
 ul{
     display: flex;
@@ -35,6 +38,7 @@ li{
     flex-direction: row;
     width: 60%;
     padding: 24px;
+    margin:auto;
 }
 .intro h1, .intro p{
     margin: 0px;
