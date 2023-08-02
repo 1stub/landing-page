@@ -3,22 +3,54 @@ body{
     flex-direction:column;
     background-color: lightskyblue;
     font-family: Helvetica, sans-serif;
-    margin: 0 360px;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
 }
 .header{
+    color: white;
     display:flex;
-    font-size: 24px;
-    margin-top: -6px;
+    flex-wrap:wrap;
+    text-align:center;
+    margin:auto;
+    justify-content: space-between;    
+    width: 60%;
 }
 span{
     align-self: center;
+    font-size: 24px;
 }
 ul{
-    list-style-type:none;
-    display:flex;
-    gap: 8px;
-    margin-left:auto;
+    display: flex;
+    gap: 16px;
 }
 li{
-    font-size: 18px;
+    list-style-type:none;
+    font-size: 16px;
+}
+.intro{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    padding: 24px;
+}
+.intro h1, .intro p{
+    margin: 0px;
+    flex: 1;
+}
+.intro h1{
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+.intro-content{
+    align-self: center;
+}
+.lorem{
+    display: flex;
+    justify-content: end;
+}
+.lorem img{
+    width: 75%;
 }
