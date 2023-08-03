@@ -1,22 +1,27 @@
+
 body{
     display:flex;
     flex-direction:column;
     font-family: Helvetica, sans-serif;
+    height: 100vh;
     margin: 0px;
     padding: 0px;
     justify-content: center;
     align-items: center;
 }
 .header-intro{
+    display: flex; 
+    flex-direction: column;
     background-color: #1F2937;
 }
-.header{
+.header, .footer{
     color: white;
     display:flex;
-    flex-wrap:wrap;
     text-align:center;
-    margin:auto;
     justify-content: space-between;    
+}
+.header{
+    margin:auto;
     width: 60%;
 }
 span{
@@ -57,4 +62,11 @@ li{
 }
 .lorem img{
     width: 75%;
+}
+.footer{
+    margin-top:auto;
+    flex-direction: column;
+    width: 100%;
+    background-color: #1F2937;
+    padding: 24px;
 }
