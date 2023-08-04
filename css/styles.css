@@ -24,7 +24,7 @@ body{
     width: 60%;
     padding-top:8px;
 }
-span{
+.header span{
     align-self: center;
     font-size: 24px;
     font-weight: bold;
@@ -63,6 +63,20 @@ li{
 }
 .lorem img{
     width: 75%;
+    border-radius: 25px;
+}
+button{
+    background-color: #3882F6;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    border-radius: 12px;
+}
+.intro-content button{
+    font-size: 16px;
+    margin: 12px 0px;
+    padding:12px 20px;
+    border: none;
 }
 .footer{
     margin-top:auto;
@@ -78,7 +92,7 @@ li{
 }
 .info-main{
     width: 100%;
-    background-color: #e2eeff;
+    background-color: #bcd8ff;
     padding-bottom: 21.440px;
 }
 .info-main h1{
@@ -110,17 +124,18 @@ li{
 .quote{
     display: flex;
     flex-direction: column;
-    background-color: #bcd8ff;
+    background-color: white;
 }
 .quote p{
     display: flex;
     width: 60%;
     margin: 0 auto;
     padding-top: 50px;
-    font-weight: lighter;
     font-style: italic;
     font-size: 36px;
+    font-weight: lighter;
 }
+/*TODO- Figure out why font-weight not affect p*/
 .quote-name{
     width: 60%;
     margin: 0 auto;
@@ -128,4 +143,34 @@ li{
     font-size: 32px;
     text-align: end;
     padding-bottom: 36px;
+}
+.sign-up{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 80px 0;
+    background-color: #bcd8ff;
+}
+.sign-up-container{
+    border-radius: 25px;
+    display: flex;
+    background-color: #3882F6;
+    padding: 24px;
+}
+.sign-up-container.content{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    justify-content: center;
+}
+.sign-up-container .sign-up-btn{
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    padding: 12px 40px;
+    align-self: center;
+}
+.content h1{
+    margin:0;
+    margin-bottom: 12px;
 }
